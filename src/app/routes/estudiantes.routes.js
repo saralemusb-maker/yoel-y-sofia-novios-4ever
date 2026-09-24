@@ -5,7 +5,7 @@ const router = express.Router();
 
 const estudiantesControllers = require("../controllers/estudiantes.controllers");
 
-//Cunado llegue el GET a la ruta principal de esgtudiantes, ejecuta obtenerEstudiantes
+//Cuando llegue el GET a la ruta principal de esgtudiantes, ejecuta obtenerEstudiantes
 router.get("/", estudiantesControllers.obtenerEstudiantes);
 
 //Cuando LLegue el GET
